@@ -17,3 +17,9 @@ fp-info-cache
 *.swo
 .DS_Store
 Thumbs.db
+
+# KiStack AI-agent skill files (install with: npx skills add -g American-Embedded/kistack)
+.claude/skills/
+.agents/skills/
+agent/skills/
+skills-lock.json
