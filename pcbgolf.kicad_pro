@@ -685,7 +685,7 @@
         "uuid": "4ad19786-2fb8-46fb-8362-af47f4d986ee"
       }
     ],
-    "used_designators": "LED6-9,U17",
+    "used_designators": "TP1-2,LED6-9,U17",
     "variants": []
   },
   "sheets": [

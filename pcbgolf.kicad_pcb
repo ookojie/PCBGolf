@@ -12738,502 +12738,6 @@
 			)
 		)
 	)
-	(footprint "pcbgolf:DCJACK_2MM_SMT"
-		(layer "F.Cu")
-		(uuid "3b8193b8-9f6c-4557-bdbe-943771bfeff3")
-		(at 46.45 115.602)
-		(descr "2.0/2.1mm DC Jack - SMT\n\n4UConnector: 03267\n\nNote: Small tRestrict polygon's were added to the ground pads to improve solderability when this part is used in combination with a ground pour.  By default, Eagle will product four large bridges to the ground pour significantly increasing the heat distribution on the pads and preventing lead-free solder from reflowing in certain situations.  For more details, see: http://www.microbuilder.eu/Blog/09-12-14/Reducing_Thermals_for_Large_Pads_in_Eagle.aspx")
-		(property "Reference" "J1"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "226e6e87-b039-4dd0-8bed-1c2fc4419aec")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DCBARRELSMT"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bb2a243e-b26d-4315-baa9-fdd06af4a5da")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2cd6bd79-c3e2-444d-a257-caffda4ea96c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cf06c7de-fc29-451e-a032-5771359c14e7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "PJ-002AH-SMT-TR"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4a46a91b-6621-417c-9824-c9e8441cf5f2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/f1261fa3-3c75-429d-adae-5cbc2c6939b9")
-		(sheetname "/Power/")
-		(sheetfile "pcbgolf.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "PWR1" "GND" "GNDBREAK")
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -5 -3.5)
-			(end -5 3.5)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7696985b-2a50-49ec-8a60-af0224fd938b")
-		)
-		(fp_line
-			(start -4 4.5)
-			(end -1.684 4.5)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c5b980f6-4a89-4146-84d7-62d9971757cf")
-		)
-		(fp_line
-			(start -1.668 -4.5)
-			(end -4 -4.5)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "74acbeb2-34d5-4d19-bfd0-e08164fd7428")
-		)
-		(fp_line
-			(start 1.588 4.5)
-			(end 4.666 4.5)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "17d297f0-cbb5-43c5-94d0-8f3bd371e3d0")
-		)
-		(fp_line
-			(start 4.682 -4.5)
-			(end 1.588 -4.5)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5ce50880-0815-4964-a31e-caa33c0bf532")
-		)
-		(fp_line
-			(start 7.938 4.5)
-			(end 10.254 4.5)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f792002d-c6a7-4250-9f80-88ae75aaa2aa")
-		)
-		(fp_line
-			(start 9 -4.5)
-			(end 7.938 -4.5)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c3b9ded0-1973-4c62-8c2d-dd3fec9439cd")
-		)
-		(fp_line
-			(start 9 1.492)
-			(end 9 -4.5)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5161e883-a0ef-45a7-a6fc-6e728629a690")
-		)
-		(fp_line
-			(start 10.254 1.492)
-			(end 9 1.492)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "341ead84-fbfc-4dc6-aff1-0ff487d2076c")
-		)
-		(fp_line
-			(start 10.254 4.5)
-			(end 10.254 1.492)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "0ca81402-440f-43fe-ae85-45936abb4848")
-		)
-		(fp_arc
-			(start -5 -3.5)
-			(mid -4.707107 -4.207107)
-			(end -4 -4.5)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "01794feb-3170-4555-94fd-2c8a6892e019")
-		)
-		(fp_arc
-			(start -4 4.5)
-			(mid -4.707107 4.207107)
-			(end -5 3.5)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8cc0fb07-e629-4782-a668-4861efaa4cea")
-		)
-		(fp_line
-			(start -5 -3.5)
-			(end -5 3.5)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "7adf117a-850e-4180-8105-4a0bcdd5ad10")
-		)
-		(fp_line
-			(start -4 4.5)
-			(end 10.254 4.5)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "185b4f29-83c9-4fea-9d30-2ea2955845f2")
-		)
-		(fp_line
-			(start 9 -4.5)
-			(end -4 -4.5)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "a2a2c178-5ac6-440a-b81d-121842ec4b29")
-		)
-		(fp_line
-			(start 9 1.492)
-			(end 9 -4.5)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "d801f60e-f52a-4771-a44b-074a9ec6b7c1")
-		)
-		(fp_line
-			(start 10.254 1.492)
-			(end 9 1.492)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "3e4c46b5-a462-46ce-8ca4-01e16ed879ec")
-		)
-		(fp_line
-			(start 10.254 4.5)
-			(end 10.254 1.492)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "66045d5e-846c-4571-b830-04d347e33de1")
-		)
-		(fp_arc
-			(start -5 -3.5)
-			(mid -4.707107 -4.207107)
-			(end -4 -4.5)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "988573ae-33d9-422b-b281-cd6d72b59e79")
-		)
-		(fp_arc
-			(start -4 4.5)
-			(mid -4.707107 4.207107)
-			(end -5 3.5)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "11de3240-d115-4bb4-93aa-d10d1d2337a8")
-		)
-		(fp_text user "GND"
-			(at -1.016 3.81 0)
-			(layer "F.SilkS")
-			(uuid "4a95af33-a630-4b02-8633-51c178bec9be")
-			(effects
-				(font
-					(size 0.747776 0.747776)
-					(thickness 0.065024)
-				)
-				(justify left bottom)
-			)
-		)
-		(fp_text user "+"
-			(at 0.762 -2.794 90)
-			(layer "F.SilkS")
-			(uuid "2231ccc2-d451-4dc6-9e31-449f5e608cc4")
-			(effects
-				(font
-					(size 1.251712 1.251712)
-					(thickness 0.170688)
-				)
-				(justify left bottom)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at 0 0)
-			(size 1.6 1.6)
-			(drill 1.6)
-			(layers "*.Cu" "*.Mask")
-			(uuid "df062df6-640e-40e1-b342-5e4dee5fa446")
-		)
-		(pad "" np_thru_hole circle
-			(at 4.5 0)
-			(size 1.8 1.8)
-			(drill 1.8)
-			(layers "*.Cu" "*.Mask")
-			(uuid "71166c66-03f5-46a1-9bf3-be7cfeb4a0da")
-		)
-		(pad "GND" smd rect
-			(at 0 5.5)
-			(size 2.4 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "GND")
-			(pinfunction "GNDBREAK_GND")
-			(pintype "power_in")
-			(solder_mask_margin 0.0508)
-			(solder_paste_margin 0)
-			(thermal_bridge_angle 0)
-			(uuid "8f88fbaa-25a6-460e-ae0d-710d40e4307d")
-		)
-		(pad "GNDBREAK" smd rect
-			(at 6.2 5.5)
-			(size 2.4 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "GND")
-			(pinfunction "GND_GNDBREAK")
-			(pintype "power_in")
-			(solder_mask_margin 0.0508)
-			(solder_paste_margin 0)
-			(thermal_bridge_angle 0)
-			(uuid "ca7b2a9a-eb81-4bd7-8f05-2cecaf452682")
-		)
-		(pad "PWR1" smd rect
-			(at 0 -5.5)
-			(size 2.4 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(J1-PWR)")
-			(pinfunction "PWR_PWR1")
-			(pintype "power_in")
-			(solder_mask_margin 0.0508)
-			(solder_paste_margin 0)
-			(thermal_bridge_angle 0)
-			(uuid "e74861f9-c545-4e9d-8a28-cbbf656c5f86")
-		)
-		(pad "PWR2" smd rect
-			(at 6.2 -5.5)
-			(size 2.4 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(solder_mask_margin 0.0508)
-			(solder_paste_margin 0)
-			(thermal_bridge_angle 0)
-			(uuid "bcbef402-3eeb-4274-8e53-06dd7d1bd7c0")
-		)
-		(zone
-			(layer "F.Cu")
-			(uuid "3ec4fb86-e25d-4127-a373-b85f014dcc4f")
-			(hatch edge 0.5)
-			(connect_pads
-				(clearance 0)
-			)
-			(min_thickness 0.25)
-			(keepout
-				(tracks not_allowed)
-				(vias not_allowed)
-				(pads not_allowed)
-				(copperpour not_allowed)
-				(footprints allowed)
-			)
-			(placement
-				(enabled no)
-				(sheetname "")
-			)
-			(fill
-				(thermal_gap 0.5)
-				(thermal_bridge_width 0.5)
-				(island_removal_mode 0)
-			)
-			(polygon
-				(pts
-					(xy 40.0238 111.157) (xy 40.5064 111.157) (xy 40.5064 111.1824) (xy 40.0238 111.1824)
-				)
-			)
-		)
-		(zone
-			(layer "F.Cu")
-			(uuid "a8853fe7-6ee5-44e6-8bb8-099dd41cc7d9")
-			(hatch edge 0.5)
-			(connect_pads
-				(clearance 0)
-			)
-			(min_thickness 0.25)
-			(keepout
-				(tracks not_allowed)
-				(vias not_allowed)
-				(pads not_allowed)
-				(copperpour not_allowed)
-				(footprints allowed)
-			)
-			(placement
-				(enabled no)
-				(sheetname "")
-			)
-			(fill
-				(thermal_gap 0.5)
-				(thermal_bridge_width 0.5)
-				(island_removal_mode 0)
-			)
-			(polygon
-				(pts
-					(xy 41.5478 109.8616) (xy 41.5478 110.3442) (xy 41.5224 110.3442) (xy 41.5224 109.8616)
-				)
-			)
-		)
-		(zone
-			(layer "F.Cu")
-			(uuid "6003e671-ce39-404b-8049-a1304b0e91a4")
-			(hatch edge 0.5)
-			(connect_pads
-				(clearance 0)
-			)
-			(min_thickness 0.25)
-			(keepout
-				(tracks not_allowed)
-				(vias not_allowed)
-				(pads not_allowed)
-				(copperpour not_allowed)
-				(footprints allowed)
-			)
-			(placement
-				(enabled no)
-				(sheetname "")
-			)
-			(fill
-				(thermal_gap 0.5)
-				(thermal_bridge_width 0.5)
-				(island_removal_mode 0)
-			)
-			(polygon
-				(pts
-					(xy 45.18 109.8616) (xy 45.18 110.3442) (xy 45.1546 110.3442) (xy 45.1546 109.8616)
-				)
-			)
-		)
-		(zone
-			(layer "F.Cu")
-			(uuid "950b6456-84cc-4297-80d3-23a3b3bd4998")
-			(hatch edge 0.5)
-			(connect_pads
-				(clearance 0)
-			)
-			(min_thickness 0.25)
-			(keepout
-				(tracks not_allowed)
-				(vias not_allowed)
-				(pads not_allowed)
-				(copperpour not_allowed)
-				(footprints allowed)
-			)
-			(placement
-				(enabled no)
-				(sheetname "")
-			)
-			(fill
-				(thermal_gap 0.5)
-				(thermal_bridge_width 0.5)
-				(island_removal_mode 0)
-			)
-			(polygon
-				(pts
-					(xy 46.704 111.1824) (xy 46.2214 111.1824) (xy 46.2214 111.157) (xy 46.704 111.157)
-				)
-			)
-		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/pcbgolf.3dshapes/Connector_BarrelJack.3dshapes/PJ-002AH-SMT-TR.step"
-			(offset
-				(xyz -5 0 6.5)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -0 90)
-			)
-		)
-	)
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "3f2d2cce-c726-4095-a0f7-decae2492b96")
@@ -16266,6 +15770,175 @@
 			)
 		)
 	)
+	(footprint "TestPoint:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm"
+		(layer "F.Cu")
+		(uuid "5909648e-3892-4ab5-b74e-21b44abf96e1")
+		(at 46.9 117.475)
+		(descr "THT rectangular pad as test Point, square 2.5mm side length, hole diameter 1.2mm")
+		(tags "test point THT pad rectangle square")
+		(property "Reference" "TP2"
+			(at 0 -2.148 0)
+			(layer "F.SilkS")
+			(uuid "abe8e197-755d-45bc-ac18-d63dd2f23aa4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 2.25 0)
+			(layer "F.Fab")
+			(uuid "49eac9b3-020d-4129-b348-fb5697f1607a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f5266efe-d7a2-4581-8286-7a0f05f56027")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1879eaea-c123-4fdb-bde4-dccf1a6359c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/72770360-5702-49ab-949f-c17459d673b0")
+		(sheetname "/Power/")
+		(sheetfile "pcbgolf.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.45 -1.45)
+			(end 1.45 -1.45)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "63400275-4527-4df2-b36a-f06ea1fd01fe")
+		)
+		(fp_line
+			(start -1.45 1.45)
+			(end -1.45 -1.45)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c5cc7294-62cd-4753-bb49-b746816dfe97")
+		)
+		(fp_line
+			(start 1.45 -1.45)
+			(end 1.45 1.45)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6d01ddaa-4be8-4e83-92d4-0ce4b4d6c03e")
+		)
+		(fp_line
+			(start 1.45 1.45)
+			(end -1.45 1.45)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "61879619-b47a-4fe9-8798-c416c227ae3a")
+		)
+		(fp_line
+			(start -1.75 -1.75)
+			(end -1.75 1.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e0b5bb73-58d7-490a-b206-6b3150ef56ec")
+		)
+		(fp_line
+			(start -1.75 -1.75)
+			(end 1.75 -1.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "76a53152-07e7-4ec9-a7b0-9962bac9bdff")
+		)
+		(fp_line
+			(start 1.75 1.75)
+			(end -1.75 1.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5510f639-f968-44a6-8dc5-29b87dd3e66c")
+		)
+		(fp_line
+			(start 1.75 1.75)
+			(end 1.75 -1.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "507879d8-448b-4945-873b-32160b4e5312")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -2.15 0)
+			(layer "F.Fab")
+			(uuid "752ea13c-11e2-4d7e-b6ce-979ba3806669")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 2.5 2.5)
+			(drill 1.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "GND")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(uuid "1f6f204b-4262-496a-bd96-a748e7e35916")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "pcbgolf:0806"
 		(layer "F.Cu")
 		(uuid "5ac42ffd-e45a-468f-bc6a-543f3e9f3fbe")
@@ -18379,6 +18052,175 @@
 				(xyz 0 0 -90)
 			)
 		)
+	)
+	(footprint "TestPoint:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm"
+		(layer "F.Cu")
+		(uuid "6562cc7b-c275-48b8-95c6-88a60b7f53eb")
+		(at 46.9 111.85)
+		(descr "THT rectangular pad as test Point, square 2.5mm side length, hole diameter 1.2mm")
+		(tags "test point THT pad rectangle square")
+		(property "Reference" "TP1"
+			(at 0 -2.148 0)
+			(layer "F.SilkS")
+			(uuid "6ae7493d-0594-46bf-9224-991553a81a05")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 2.25 0)
+			(layer "F.Fab")
+			(uuid "b8021dae-ae55-411f-a1ff-6632658dd7b4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ffc97ed6-68bf-4d45-8219-eee60c10e83e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "57b4a699-ced1-41d3-9a0c-a29482f52201")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/fb5b9f6a-a75a-4296-b722-db5964607441")
+		(sheetname "/Power/")
+		(sheetfile "pcbgolf.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.45 -1.45)
+			(end 1.45 -1.45)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0bd37c4d-2f20-44fa-9623-47db1570b453")
+		)
+		(fp_line
+			(start -1.45 1.45)
+			(end -1.45 -1.45)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b428f8cc-d8fd-40f9-bc7b-6ff23e6a2c21")
+		)
+		(fp_line
+			(start 1.45 -1.45)
+			(end 1.45 1.45)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "98d4fdea-969d-4505-a61f-5c52933742c0")
+		)
+		(fp_line
+			(start 1.45 1.45)
+			(end -1.45 1.45)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c3919314-0f14-4848-ab61-7556c83f9a73")
+		)
+		(fp_line
+			(start -1.75 -1.75)
+			(end -1.75 1.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d0e49735-f73a-4636-8e3f-c43c0fa921dc")
+		)
+		(fp_line
+			(start -1.75 -1.75)
+			(end 1.75 -1.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "fe880ef2-324f-4421-b8f3-f64ec74fb92c")
+		)
+		(fp_line
+			(start 1.75 1.75)
+			(end -1.75 1.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "98c1d81d-95da-4546-9527-78f24cd3c591")
+		)
+		(fp_line
+			(start 1.75 1.75)
+			(end 1.75 -1.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "56c4bf4e-d55c-400b-a315-cc5602be6b08")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -2.15 0)
+			(layer "F.Fab")
+			(uuid "5c8878a3-3e5a-4875-80ce-399a366f40e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 2.5 2.5)
+			(drill 1.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "Net-(D1-Pad2)")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(uuid "62cfbb32-dc45-4270-a915-8fa60aa88cd9")
+		)
+		(embedded_fonts no)
 	)
 	(footprint "LED_SMD:LED_0201_0603Metric"
 		(layer "F.Cu")
@@ -21252,7 +21094,7 @@
 			(at 2.21 0 90)
 			(size 2.159 2.743)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(J1-PWR)")
+			(net "Net-(D1-Pad2)")
 			(pinfunction "2_2")
 			(pintype "passive")
 			(solder_mask_margin 0.0508)
@@ -28649,7 +28491,7 @@
 			(at 1.4925 0.99 270)
 			(size 0.76 0.405)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(J1-PWR)")
+			(net "Net-(D1-Pad2)")
 			(pinfunction "D_5")
 			(pintype "passive")
 			(solder_mask_margin 0.0508)
@@ -28661,7 +28503,7 @@
 			(at 1.4925 0.33 270)
 			(size 0.76 0.405)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(J1-PWR)")
+			(net "Net-(D1-Pad2)")
 			(pinfunction "D_6")
 			(pintype "passive")
 			(solder_mask_margin 0.0508)
@@ -28673,7 +28515,7 @@
 			(at 1.4925 -0.33 270)
 			(size 0.76 0.405)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(J1-PWR)")
+			(net "Net-(D1-Pad2)")
 			(pinfunction "D_7")
 			(pintype "passive")
 			(solder_mask_margin 0.0508)
@@ -28685,7 +28527,7 @@
 			(at 1.4925 -0.99 270)
 			(size 0.76 0.405)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(J1-PWR)")
+			(net "Net-(D1-Pad2)")
 			(pinfunction "D_8")
 			(pintype "passive")
 			(solder_mask_margin 0.0508)
@@ -28697,7 +28539,7 @@
 			(at 0.5 0 270)
 			(size 1.725 2.235)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(J1-PWR)")
+			(net "Net-(D1-Pad2)")
 			(pinfunction "D_9")
 			(pintype "passive")
 			(solder_mask_margin 0.0508)
