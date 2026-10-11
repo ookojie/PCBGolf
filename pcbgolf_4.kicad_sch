@@ -7017,7 +7017,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-C"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 138.43 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -7110,7 +7110,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-C"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 138.43 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -7374,7 +7374,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-C"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 163.83 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -7467,7 +7467,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-C"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 138.43 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -7830,7 +7830,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-C"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 151.13 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -8328,7 +8328,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-C"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 151.13 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -8499,7 +8499,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-C"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 163.83 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -9559,7 +9559,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-C"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 138.43 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -12351,7 +12351,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-C"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 163.83 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -12772,7 +12772,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-C"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 163.83 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -12865,7 +12865,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-C"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 151.13 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -13300,7 +13300,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:0402-C"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 151.13 151.13 0)
 			(hide yes)
 			(show_name no)
